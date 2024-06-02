@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let users = [
+            {
+                id: "1",
+                uname: "user",
+                uemaul: "user1@google.com"
+            },
+            {
+                id: "2",
+                uname: "user2",
+                uemaul: "user2@google.com"
+
+            }
+        ];
+
+        for (data in users) {
+            document.write(`<h1>${users[data].id}</h1>`);
+            document.write(`<h1>${users[data].uname}</h1>`);
+        
+        }
+
+    </script>
+
+</body>
+
+</html>

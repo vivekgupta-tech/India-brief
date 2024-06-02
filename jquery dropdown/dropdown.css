@@ -1,0 +1,163 @@
+    *{
+        margin:0;
+        padding:0;
+        list-style: none;
+        text-decoration: none;
+    }
+    .head{
+        width:100%;
+        padding-top:2%;
+        padding-bottom:2%;
+        padding-left: 2%;
+        background-color: rgb(47, 184, 47);
+        position: fixed;
+        
+    }
+   .head ul {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 8%;
+        margin-left:0;
+    }
+    .main-box{
+        height:50vh;
+        width:100%;
+        display: flex;
+        gap:30px;
+        
+        
+    }
+    .box1{
+        height:50vh;
+        width:20%;
+        background:gray;
+        display: none;
+        position: absolute;
+        
+    }
+    .box1 ul li{
+        list-style:none;
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        color:white;
+        text-align: center;
+        font-size: large;
+    }
+    .box2{
+        height:50vh;
+        width:20%;
+        background:gray;
+        display: none;
+        margin-left:20%;
+        position: absolute;
+
+    }
+    .box2 ul li{
+        list-style:none;
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        color:white;
+        text-align: center;
+        font-size: large;
+    }
+    .box3{
+        height:50vh;
+        width:20%;
+        background:gray;
+        display: none;
+        margin-left:40%;
+        position: absolute;
+        
+
+    }
+    .box3 ul li{
+        list-style:none;
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        color:white;
+        text-align: center;
+        font-size: large;
+    }
+    .box4{
+        height:50vh;
+        width:20%;
+        background:gray;
+        display: none;
+        margin-left:60%;
+        position: absolute;
+    }
+    .box4 ul li{
+        list-style:none;
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        color:white;
+        text-align: center;
+        font-size: large;
+    }
+    .box5{
+        height:50vh;
+        width:20%;
+        background:gray;
+        display: none;
+        margin-left:80%;
+        position: absolute;
+    }
+    .box5 ul li{
+        list-style:none;
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        color:white;
+        text-align: center;
+        font-size: large;
+    }
+    .content1,.content2,.content3,.content4,.content5,.content6,.content7,.content8,.content9,.content10,.content11,.content12,.content13,.content14,.content15,.content16,.content17,.content18,.content19,.content20,.content21,.content22,.content23,.content24,.content25,.content26,.content27,.content28,.content29,.content30,.content31,.content32,.content33,.content34,.content35{
+        height:95vh;
+        width:60%;
+        display: none;
+        color: green;
+        font: 100;
+        border: 2px solid black;
+        margin-left: 6vh;
+        float: left;
+    }
+     h1{
+        font-family: sans-serif;
+        letter-spacing: 0px;
+    }
+    .pics{
+        height:56.5vh;
+        width:100%;
+    }
+    .pics img{
+        height:100%;
+        width:100%;
+    }
+    .ad-section{
+        height:97vh;
+        width:36.485%;
+        background-color: black;
+        float: right;
+    }
+    .ad-section h2{
+        background-color: aquamarine;
+    }
+    .ad-section img{
+        height:50%;
+        width:100%;
+    }
+    .footer{
+        height:50px;
+        width:100%;
+        background-color: black;
+        margin-top: 102vh;
+    }
+   .footer h1{
+    justify-content: center;
+        color: aliceblue;
+        align-items: center;
+        margin-left: 36%;
+        font-family: sans-serif;
+
+    }
+    
+    
